@@ -1,0 +1,49 @@
+/*estilos para colores*/
+.colores {
+    color:coral
+}
+
+.color-hexadecimal {
+    color: #9A7197;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200)
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85)
+}
+
+/*fondo*/
+.fondo {
+    /* background-color: aquamarine; */
+    background-image: url("https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    background-position: left bottom ;
+
+}
+
+.fondo-interno {
+    /* background-color: cornflowerblue;*/
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/960/590/small/abstract-watercolor-texture-wallpaper-background-free-vector.jpg") ;
+    background-position: left bottom ;
+}
+
+/*Tamaños*/
+.ancho {
+    background-color: chartreuse;
+    width: 100px
+}
+
+.alto {
+    background-color: aqua;
+    height: 200px;
+}
+
+.Tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*borde-top: none;*/
+    padding: 10px 20px 30px 40px; 
+}
